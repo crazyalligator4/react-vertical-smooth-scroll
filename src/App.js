@@ -1,11 +1,15 @@
+// dependencies
 import React from 'react';
+// components
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Whats up?</h1>
-    </div>
+    <Router className="App">
+      <Navbar/>
+    </Router>
   );
 }
 
