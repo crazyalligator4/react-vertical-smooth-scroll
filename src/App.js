@@ -3,14 +3,12 @@ import React from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 // components
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Sidebar from './components/Sidebar/Sidebar';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <Router className="App">
-      <Sidebar/>
-      <Navbar/>
+      <Home/>
     </Router>
   );
 }

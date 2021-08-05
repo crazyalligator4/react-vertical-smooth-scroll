@@ -11,6 +11,8 @@
   transition: 0.3s ease-in-out;
   /* opacity: ${({isOpen}) => (isOpen ? '100%' : '0')}; */
   /* top: ${({isOpen}) => (isOpen ? '0' : '-100%')}; */
+  /* opacity: 0;
+  top: -100%; */
 }
 .Icon {
   position: absolute;
