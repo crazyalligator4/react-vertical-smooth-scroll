@@ -9,8 +9,9 @@
   position: sticky;
   top: 0;
   z-index: 10;
-
-  @media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 960px) {
+  .Nav {
     transition: 0.8s all ease;
   }
 }
@@ -34,10 +35,8 @@
   font-weight: bold;
   text-decoration: none;
 }
-.MobileIcon {
-  display: none;
-
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .MobileIcon {
     display: block;
     position: absolute;
     top: 0;
@@ -47,6 +46,12 @@
     cursor: pointer;
     color: #fff;
   }
+  .NavMenu {
+    display: none;
+  }
+}
+.MobileIcon {
+  display: none;
 }
 .NavMenu {
   display: flex;
@@ -54,10 +59,6 @@
   list-style: none;
   text-align: center;
   margin-right: -22px;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 }
 .NavItem {
   height: 80px;
