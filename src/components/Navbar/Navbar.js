@@ -18,7 +18,19 @@ export default function Navbar() {
           <li className='NavItem'>
             <LinkS to='about' className='NavLinks'>About</LinkS>
           </li>
+          <li className='NavItem'>
+            <LinkS to='discover' className='NavLinks'>Discover</LinkS>
+          </li>
+          <li className='NavItem'>
+            <LinkS to='services' className='NavLinks'>Services</LinkS>
+          </li>
+          <li className='NavItem'>
+            <LinkS to='signup' className='NavLinks'>Sign Up</LinkS>
+          </li>
         </ul>
+        <nav className='NavBtn'>
+          <LinkR className='NavBtnLink'>Sing In</LinkR>
+        </nav>
       </div>
     </nav>
   )
