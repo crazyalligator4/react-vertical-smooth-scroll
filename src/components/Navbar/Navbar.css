@@ -35,7 +35,20 @@
   font-weight: bold;
   text-decoration: none;
 }
+.MobileIcon {
+  display: none;
+}
+.NavMenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -22px;
+}
 @media screen and (max-width: 768px) {
+  .NavMenu {
+    display: none;
+  }
   .MobileIcon {
     display: block;
     position: absolute;
@@ -46,19 +59,6 @@
     cursor: pointer;
     color: #fff;
   }
-  .NavMenu {
-    display: none;
-  }
-}
-.MobileIcon {
-  display: none;
-}
-.NavMenu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  text-align: center;
-  margin-right: -22px;
 }
 .NavItem {
   height: 80px;
