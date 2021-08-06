@@ -25,3 +25,78 @@
   object-fit: cover;
   background: #232a34;
 }
+.HeroContent {
+  z-index: 3;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.HeroH1 {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+}
+.HeroP {
+  margin-top: 24px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  max-width: 600px;
+}
+@media screen and (max-width: 768px) {
+  .HeroH1 {
+    font-size: 40px;
+  }
+  .HeroP {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .HeroH1 {
+    font-size: 32px;
+  }
+  .HeroP {
+    font-size: 18px;
+  }
+}
+.HeroBtnWraper {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ArrowForward {
+  margin-left: 8px;
+  font-size: 20px;
+}
+.ArrowRight {
+  margin-left: 8px;
+  font-size: 20px;
+}
+.Button {
+  border-radius: 50px;
+  background: #01BF71;
+  /* SECONDARY: background: #010606; */
+  white-space: nowrap;
+  padding: 12px 30px;
+  /* BIG: padding: 14px 48px; */
+  /* DARK: color: #010606; */
+  color: #fff;
+  font-size: 16px;
+  /* FONTBIG: font-size: 20px; */
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.Button:hover {
+  transition: all 0.2s ease-in-out;
+  background: #010606;
+  /* PRIMARY: background: #fff; */
+}
