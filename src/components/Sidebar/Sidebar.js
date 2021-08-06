@@ -7,8 +7,10 @@ import './Sidebar.css';
 import {FaTimes} from 'react-icons/fa';
 
 const Sidebar = props => {
+  const sidebarClassname = `SidebarContainer--${props.isOpen ? 'opened' : 'closed'}`;
+
   return (
-    <aside className={`SidebarContainer--${props.isOpen ? 'opened' : 'closed'}`} onClick={props.toogle}>
+    <aside className={sidebarClassname} onClick={props.toogle}>
       <div className='Icon' onClick={props.toogle}> 
         <FaTimes className='CloseIcon'></FaTimes>
       </div>
