@@ -6,12 +6,12 @@ import {FaBars} from 'react-icons/fa';
 // components
 import './Navbar.css';
 
-export default function Navbar() {
+const Navbar = props => {
   return (
     <nav className='Nav'>
       <div className='NavbarContainer'>
         <LinkR to='/' className='NavLogo'>Vertical Smooth</LinkR>
-        <div className='MobileIcon'>
+        <div className='MobileIcon' onClick={props.toogle}>
           <FaBars/>
         </div>
         <ul className='NavMenu'>
@@ -29,9 +29,11 @@ export default function Navbar() {
           </li>
         </ul>
         <nav className='NavBtn'>
-          <LinkR className='NavBtnLink'>Sing In</LinkR>
+          <LinkR className='NavBtnLink' to='/signin'>Sing In</LinkR>
         </nav>
       </div>
     </nav>
   )
 }
+
+export default Navbar;

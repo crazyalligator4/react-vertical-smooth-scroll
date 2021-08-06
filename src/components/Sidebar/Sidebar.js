@@ -6,13 +6,13 @@ import {Link as LinkR} from 'react-router-dom';
 import './Sidebar.css';
 import {FaTimes} from 'react-icons/fa';
 
-const Sidebar = () => {
+const Sidebar = props => {
   return (
-    <aside className='SidebarContainer'>
-      <div className='Icon'> 
+    <aside className={`SidebarContainer--${props.isOpen ? 'opened' : 'closed'}`} onClick={props.toogle}>
+      <div className='Icon' onClick={props.toogle}> 
         <FaTimes className='CloseIcon'></FaTimes>
       </div>
-      <div lassName='SidebarWrapper'>
+      <div className='SidebarWrapper'>
         <ul className='SidebarMenu'>
           <LinkS to='about' className='SidebarLink'>
             About
@@ -35,4 +35,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
