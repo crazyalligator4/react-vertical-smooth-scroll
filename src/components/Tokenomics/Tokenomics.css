@@ -49,3 +49,19 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
 }
+.CirclePercentaje {
+  margin-block: auto;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.FeeImg {
+  width: 27px;
+  height: 42px;
+}
+.FeeP {
+  margin-block: auto;
+}
