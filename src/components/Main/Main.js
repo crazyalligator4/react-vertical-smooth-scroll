@@ -4,10 +4,11 @@ import React, {useState} from 'react'
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import Home from '../Home/Home';
-import InfoSection from '../InfoSection';
+// import InfoSection from '../InfoSection';
 import Features from '../Features';
-import {homeObjOne, homeObjThree, homeObjTwo} from '../InfoSection/data';
+// import {homeObjOne, homeObjThree, homeObjTwo} from '../InfoSection/data';
 import Tokenomics from '../Tokenomics/Tokenomics';
+import Roadmap from '../Roadmap';
 
 const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +21,7 @@ const Main = () => {
       <Home/>
       <Features/>
       <Tokenomics/>
-      <InfoSection {...homeObjOne}/>
-      <InfoSection {...homeObjTwo}/>
-      <InfoSection {...homeObjThree}/>
+      <Roadmap/>
     </>
   )
 }
