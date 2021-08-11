@@ -86,3 +86,19 @@ export const ServicesP = styled.p`
   text-align: center;
   color: #fff;
 `
+export const Button = styled.a`
+  border-radius: 6px;
+  background: #249688;
+  white-space: nowrap;
+  padding: 12px 30px;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  margin: 24px 8px 8px 8px;
+`

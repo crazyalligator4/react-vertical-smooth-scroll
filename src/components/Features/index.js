@@ -3,7 +3,7 @@ import React from 'react';
 // components
 import {
   ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,
-  ServicesIcon, ServicesH2, ServicesP, ServicesSubtitle,
+  ServicesIcon, ServicesH2, ServicesP, ServicesSubtitle, Button,
 } from './FeatureElements';
 import IconBuild from '../../images/build.png';
 import IconEvolve from '../../images/evolve.png';
@@ -47,6 +47,12 @@ const Features = () => {
           <ServicesP>Evolve your tribe into a new era and unlock new buildings,  resources and more.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
+      <Button
+          href='https://docs.apesofempires.com/'
+          target='_blank'
+        >
+          Documentation
+        </Button>
     </ServicesContainer>
   )
 }
