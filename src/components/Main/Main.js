@@ -13,7 +13,7 @@ import Footer from '../Footer/Footer';
 
 const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const toogle = () => {setIsOpen(!isOpen); console.log('click');}
+  const toogle = () => setIsOpen(!isOpen);
 
   return (
     <>
