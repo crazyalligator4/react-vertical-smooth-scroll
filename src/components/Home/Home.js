@@ -5,7 +5,7 @@ import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import HeroSection from '../HeroSection';
 import InfoSection from '../InfoSection';
-import {homeObjOne} from '../InfoSection/data';
+import {homeObjOne, homeObjThree, homeObjTwo} from '../InfoSection/data';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +17,8 @@ const Home = () => {
       <Navbar toogle={toogle}/>
       <HeroSection/>
       <InfoSection {...homeObjOne}/>
+      <InfoSection {...homeObjTwo}/>
+      <InfoSection {...homeObjThree}/>
     </>
   )
 }
