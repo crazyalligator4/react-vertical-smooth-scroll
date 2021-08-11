@@ -1,3 +1,5 @@
+import carImg from '../../images/svg-1.svg';
+
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
@@ -8,7 +10,7 @@ export const homeObjOne = {
   description: 'Get access...',
   buttonLabel: 'Get Started',
   imgStart: false,
-  img: require('../../images/svg-1.svg'),
+  img: carImg,
   alt: 'Car',
   dark: true,
   primary: true,

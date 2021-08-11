@@ -10,8 +10,9 @@ import {Button} from '../Basics/Button/ButtonElement';
 
 const InfoSection = (
   {
-    lightBg, imgStart, topline, lightText, heading,
-    darkText, description, img, alt, id,
+    lightBg, imgStart, topLine, lightText, headLine,
+    darkText, description, img, alt, id, buttonLabel,
+    primary, dark2,
   }
 ) => {
   return (
@@ -20,11 +21,20 @@ const InfoSection = (
         <InfoRow imgStart={imgStart}>
           <Column1>
             <TextWraper>
-              <Topline>{topline}</Topline>
-              <Heading lightText={lightText}>{heading}</Heading>
+              <Topline>{topLine}</Topline>
+              <Heading lightText={lightText}>{headLine}</Heading>
               <Subtitle darkText={darkText}>{description}</Subtitle>
               <BtnWrap>
-                <Button to='home'>Home</Button>
+                <Button
+                  to='home'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact={true}
+                  offset={-80}
+                  primary={primary ? 1 : 0}
+                  dark2={dark2 ? 1 : 0}
+                >{buttonLabel}</Button>
               </BtnWrap>
             </TextWraper>
           </Column1>
