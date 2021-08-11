@@ -4,10 +4,10 @@ import React, {useState} from 'react'
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import Home from '../Home/Home';
-import HeroSection from '../HeroSection';
 import InfoSection from '../InfoSection';
 import Services from '../Services';
 import {homeObjOne, homeObjThree, homeObjTwo} from '../InfoSection/data';
+import Tokenomics from '../Tokenomics/Tokenomics';
 
 const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +17,7 @@ const Main = () => {
     <>
       <Sidebar isOpen={isOpen} toogle={toogle}/>
       <Navbar toogle={toogle}/>
-      <HeroSection/>
+      <Tokenomics/>
       <Home/>
       <InfoSection {...homeObjOne}/>
       <InfoSection {...homeObjTwo}/>

@@ -1,0 +1,52 @@
+.TokenomicsContainer {
+  background: #525B66;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+}
+.TokenomicsVideo {
+  width: 100%;
+  height: 100%;
+}
+.TokenomicsH1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.25rem;
+}
+.TokenomicsH2 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 10px;
+}
+.TokenomicsImg {
+  width: 60%;
+}
+/* Ir achicando el width con @media */
+.FeesContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  grid-gap: 16px;
+  padding: 0 50px;
+}
+.FeeCard {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  max-height: 340px;
+  /* height: 320px; */
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
