@@ -4,20 +4,20 @@ import React from 'react';
 import {
   ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,
   ServicesIcon, ServicesH2, ServicesP, ServicesSubtitle,
-} from './ServicesElements';
+} from './FeatureElements';
 import IconBuild from '../../images/build.png';
 import IconEvolve from '../../images/evolve.png';
 import IconFarm from '../../images/farm.png';
 import IconFight from '../../images/fight.png';
 import IconTrade from '../../images/trade.png';
 
-const Services = () => {
+const Features = () => {
   const serviceText = 'Apes of Empires is inspired in the well known game Age of Empires.' +
     'Form your tribe of apes, build an army and fight the diferent enemies in this Play-to-Earn' +
     ' blockchain based game.';
 
   return (
-    <ServicesContainer id='services'>
+    <ServicesContainer id='features'>
       <ServicesH1>Breed, Grow, ​Build, Farm, Trade, Fight, Evolve</ServicesH1>
       <ServicesSubtitle>{serviceText}</ServicesSubtitle>
       <ServicesWrapper>
@@ -51,4 +51,4 @@ const Services = () => {
   )
 }
 
-export default Services;
+export default Features;

@@ -6,7 +6,7 @@ import TokenImg from '../../images/tokenomics_static.png';
 
 const Tokenomics = () => {
   return (
-    <div className='TokenomicsContainer'>
+    <div className='TokenomicsContainer' id='tokenomics'>
       <h1 className='TokenomicsH1'>Tokenomics</h1>
       <h2 className='TokenomicsH2'>Distribution</h2>
       <img

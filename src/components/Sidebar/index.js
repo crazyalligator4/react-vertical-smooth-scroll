@@ -14,17 +14,14 @@ const Sidebar = ({isOpen, toogle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='about'>
-            About
-          </SidebarLink>
           <SidebarLink to='home'>
             Home
           </SidebarLink>
-          <SidebarLink to='discover'>
-            Discover
+          <SidebarLink to='features'>
+            Features
           </SidebarLink>
-          <SidebarLink to='services'>
-            Services
+          <SidebarLink to='tokenomics'>
+            Tokenomics
           </SidebarLink>
           <SidebarLink to='signup'>
             Sign Up

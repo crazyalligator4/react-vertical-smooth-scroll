@@ -22,16 +22,13 @@ const Navbar = props => {
         </MobileIcon>
         <NavMenu>
           <NavItem>
-            <NavLinks to='about' className='NavLinks'>About</NavLinks>
-          </NavItem>
-          <NavItem>
             <NavLinks to='home' className='NavLinks'>Home</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='discover' className='NavLinks'>Discover</NavLinks>
+            <NavLinks to='features' className='NavLinks'>Features</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='services' className='NavLinks'>Services</NavLinks>
+            <NavLinks to='tokenomics' className='NavLinks'>Tokenomics</NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks to='signup' className='NavLinks'>Sign Up</NavLinks>

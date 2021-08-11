@@ -5,7 +5,7 @@ import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import Home from '../Home/Home';
 import InfoSection from '../InfoSection';
-import Services from '../Services';
+import Features from '../Features';
 import {homeObjOne, homeObjThree, homeObjTwo} from '../InfoSection/data';
 import Tokenomics from '../Tokenomics/Tokenomics';
 
@@ -17,11 +17,11 @@ const Main = () => {
     <>
       <Sidebar isOpen={isOpen} toogle={toogle}/>
       <Navbar toogle={toogle}/>
-      <Tokenomics/>
       <Home/>
+      <Features/>
+      <Tokenomics/>
       <InfoSection {...homeObjOne}/>
       <InfoSection {...homeObjTwo}/>
-      <Services/>
       <InfoSection {...homeObjThree}/>
     </>
   )
