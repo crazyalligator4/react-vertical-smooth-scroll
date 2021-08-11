@@ -8,7 +8,7 @@ import InfoSection from '../InfoSection';
 import Services from '../Services';
 import {homeObjOne, homeObjThree, homeObjTwo} from '../InfoSection/data';
 
-const Home = () => {
+const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toogle = () => setIsOpen(!isOpen);
 
@@ -25,4 +25,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Main;
