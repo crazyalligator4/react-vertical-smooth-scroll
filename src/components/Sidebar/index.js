@@ -26,6 +26,9 @@ const Sidebar = ({isOpen, toogle}) => {
           <SidebarLink to='roadmap'>
             Roadmap
           </SidebarLink>
+          <SidebarLink to='social'>
+            Social
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to='/signin'>Sign In</SidebarRoute>
