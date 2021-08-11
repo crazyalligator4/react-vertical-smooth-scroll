@@ -9,6 +9,7 @@ import Features from '../Features';
 // import {homeObjOne, homeObjThree, homeObjTwo} from '../InfoSection/data';
 import Tokenomics from '../Tokenomics/Tokenomics';
 import Roadmap from '../Roadmap';
+import Footer from '../Footer/Footer';
 
 const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ const Main = () => {
       <Features/>
       <Tokenomics/>
       <Roadmap/>
+      <Footer/>
     </>
   )
 }
