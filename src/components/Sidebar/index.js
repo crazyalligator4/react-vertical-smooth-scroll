@@ -17,6 +17,9 @@ const Sidebar = ({isOpen, toogle}) => {
           <SidebarLink to='about'>
             About
           </SidebarLink>
+          <SidebarLink to='home'>
+            Home
+          </SidebarLink>
           <SidebarLink to='discover'>
             Discover
           </SidebarLink>

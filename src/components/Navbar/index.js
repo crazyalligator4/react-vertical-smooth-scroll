@@ -26,6 +26,9 @@ const Navbar = props => {
             <NavLinks to='about' className='NavLinks'>About</NavLinks>
           </NavItem>
           <NavItem>
+            <NavLinks to='home' className='NavLinks'>Home</NavLinks>
+          </NavItem>
+          <NavItem>
             <NavLinks to='discover' className='NavLinks'>Discover</NavLinks>
           </NavItem>
           <NavItem>
