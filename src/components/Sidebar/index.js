@@ -14,19 +14,19 @@ const Sidebar = ({isOpen, toogle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='home'>
+          <SidebarLink to='home' onClick={toogle}>
             Home
           </SidebarLink>
-          <SidebarLink to='features'>
+          <SidebarLink to='features' onClick={toogle}>
             Features
           </SidebarLink>
-          <SidebarLink to='tokenomics'>
+          <SidebarLink to='tokenomics' onClick={toogle}>
             Tokenomics
           </SidebarLink>
-          <SidebarLink to='roadmap'>
+          <SidebarLink to='roadmap' onClick={toogle}>
             Roadmap
           </SidebarLink>
-          <SidebarLink to='social'>
+          <SidebarLink to='social' onClick={toogle}>
             Social
           </SidebarLink>
         </SidebarMenu>
