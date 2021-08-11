@@ -1,6 +1,6 @@
 // dependencies
 import React, {useState} from 'react'
-import HeroSection from '../HeroSection/HeroSection';
+import HeroSection from '../HeroSection';
 import InfoSection from '../InfoSection/InfoSection';
 // components
 // import Navbar from '../Navbar/Navbar'
