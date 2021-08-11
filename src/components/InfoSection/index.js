@@ -5,19 +5,24 @@ import {
   InfoContainer, InfoWraper, InfoRow, Column1,
   TextWraper, Topline, Heading, Subtitle, BtnWrap,
   Column2, ImgWrap, Img,
-} from './InfoSectionElemets';
+} from './InfoSectionElements';
 import {Button} from '../Basics/Button/ButtonElement';
 
-const InfoSection = () => {
+const InfoSection = (
+  {
+    lightBg, imgStart, topline, lightText, heading,
+    darkText, description, img, alt, id,
+  }
+) => {
   return (
-    <InfoContainer id='about'>
+    <InfoContainer lightBg={lightBg} id={id}>
       <InfoWraper>
-        <InfoRow>
+        <InfoRow imgStart={imgStart}>
           <Column1>
             <TextWraper>
-              <Topline>Topline</Topline>
-              <Heading>Heading</Heading>
-              <Subtitle>Subtitle</Subtitle>
+              <Topline>{topline}</Topline>
+              <Heading lightText={lightText}>{heading}</Heading>
+              <Subtitle darkText={darkText}>{description}</Subtitle>
               <BtnWrap>
                 <Button to='home'>Home</Button>
               </BtnWrap>
@@ -25,7 +30,7 @@ const InfoSection = () => {
           </Column1>
           <Column2>
             <ImgWrap>
-              <Img/>
+              <Img src={img} alt={alt}/>
             </ImgWrap>
           </Column2>
         </InfoRow>
