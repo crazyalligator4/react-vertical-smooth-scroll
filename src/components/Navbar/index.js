@@ -7,12 +7,15 @@ import {
   MobileIcon, NavMenu, NavItem, NavLinks,
   NavBtn, NavBtnLink,
 } from './NavbarElements';
+import logo from '../../images/apeslogomini.png';
 
 const Navbar = props => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo>Vertical Smooth</NavLogo>
+        <NavLogo>
+          <img src={logo} alt='logo' style={{height: '100px', width: '200px'}}/> 
+        </NavLogo>
         <MobileIcon onClick={props.toogle}>
           <FaBars/>
         </MobileIcon>
