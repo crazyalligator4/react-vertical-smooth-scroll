@@ -3,9 +3,8 @@ import React from 'react';
 import {FaBars} from 'react-icons/fa';
 // components
 import {
-  Nav, NavbarContainer, NavLogo,
+  Nav, NavbarContainer, NavLogo, NavBtn,
   MobileIcon, NavMenu, NavItem, NavLinks,
-  NavBtn, NavBtnLink,
 } from './NavbarElements';
 import logo from '../../images/apeslogomini.png';
 import twitterLogo from '../../images/twitter.svg';
