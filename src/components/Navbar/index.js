@@ -31,7 +31,10 @@ const Navbar = props => {
             <NavLinks to='tokenomics' className='NavLinks'>Tokenomics</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to='signup' className='NavLinks'>Sign Up</NavLinks>
+            <NavLinks to='roadmap' className='NavLinks'>Roadmap</NavLinks>
+          </NavItem>
+          <NavItem>
+            <NavLinks to='social' className='NavLinks'>Social</NavLinks>
           </NavItem>
         </NavMenu>
         <NavBtn>

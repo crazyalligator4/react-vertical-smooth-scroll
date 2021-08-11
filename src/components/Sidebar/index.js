@@ -23,8 +23,8 @@ const Sidebar = ({isOpen, toogle}) => {
           <SidebarLink to='tokenomics'>
             Tokenomics
           </SidebarLink>
-          <SidebarLink to='signup'>
-            Sign Up
+          <SidebarLink to='roadmap'>
+            Roadmap
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

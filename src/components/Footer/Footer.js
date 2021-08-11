@@ -7,7 +7,7 @@ import telegramLogo from '../../images/telegram.svg';
 
 const Footer = () => {
   return (
-    <div className='FooterContainer'>
+    <div className='FooterContainer' id='social'>
       <section className='FooterSocial'>
         <p>Socials</p>
         <img
