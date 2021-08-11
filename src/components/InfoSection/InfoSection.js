@@ -6,7 +6,7 @@ import carImg from '../../images/car.svg'
 
 const InfoSection = () => {
   return (
-    <div className='InfoContainer' id='id'>
+    <div className='InfoContainer' id='about'>
       <div className='InfoWraper'>
         <div className='InfoRow'>
           <div className='Column1'>
