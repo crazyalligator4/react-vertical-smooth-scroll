@@ -75,6 +75,7 @@ export const ServicesSubtitle = styled.p`
   font-size: 1.25rem;
   color: #000000;
   text-align: center;
+  margin-bottom: 16px;
 `
 export const ServicesH2 = styled.h2`
   font-size: 1rem;
